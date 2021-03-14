@@ -97,5 +97,19 @@ namespace Calculator
             }
             return result;
         }
+        /// <summary>
+        /// вычисление факториала
+        /// </summary>
+        /// <param name="input">входящее значение</param>
+        /// <returns></returns>
+        public static int math_factorial(int input)
+        {
+            var result = 1;
+            for(int i=1; i<=input; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
     }
 }
